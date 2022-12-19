@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+#btn{
+    height: 30px;
+    width: 80px;
+    padding: 5pxpx;
+    margin-left: 20px;
+    background-color:black;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 15px;
+
+}
+    
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1 style="background-color: cadetblue;color: white;text-align: center;border-radius: 20px;">Registration Form</h1>
+    <div class="container imagebg">
+        <form>
+            First Name : <input type="text" name="Fname" placeholder="First Name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Last Name : <input type="text" name="Lname" placeholder="Last Name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Surname : <input type="text" name="Surname" placeholder="Surname" required>
+            <br><br>
+            Gender : <input type="radio" name="Gender" value="male">Male
+            <input type="radio" name="Gender" value="female">Female<br><br>
+            Age : <input type="number" name="qun" min="1" max="100"><br><br>
+            Addres : <textarea name="message" rows="2" cols="10" required></textarea><br><br>
+            Hobby : <input type="checkbox" name="hobby" value="cricket">cricket
+            <input type="checkbox" name="hobby" value="read">Read
+            <input type="checkbox" name="hobby" value="drawing">Drawing
+            <input type="checkbox" name="hobby" value="write">Write<br><br>
+            Gmail : <input type="text" name="email" required><br><br>
+            Password : <input type="password" name="password"><br><br>
+            Collage Name : <input type="text" name="Cname" placeholder="Collage name"><br><br>
+            Year : <select>
+                <option value="select">select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br><br>
+            Branch : <input  list="brawsers" name="brawsers">
+            <datalist id="brawsers">
+                <option value="Mechanical">
+                <option value="Civil">
+                <option value="Electrical">
+                <option value="Computer">
+                <option value="E.C">
+            </datalist><br><br>
+DATE: <input type="date" name="date"><br><br>
+Phone Number : <input type="text" name="number" placeholder="10 Digit" maxlength="10" required><br><br><br>
+               <input id="btn" type="submit" value="Submit">
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
